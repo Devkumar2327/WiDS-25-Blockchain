@@ -1,23 +1,17 @@
 # WiDS-25-Blockchain
-'''text
-fraud_detection_project/
-│
-├── app.py                     # FastAPI entry point
-│
-├── ml/
-│   └── model.py               # ML model loading & prediction logic
-│
-├── security/
-│   └── hashing.py             # SHA-256 hashing utilities
-│
-├── blockchain/
-│   ├── web3_client.py         # Web3.py integration & Solidity contract calls
-│   └── contract_abi.json      # Smart contract ABI (exported from Remix)
-│
-├── xgb_fraud_model.pkl        # Trained XGBoost fraud detection model
-├── .env                       # Environment variables (RPC URL, private key, contract address)
-└── requirements.txt           # Python dependencies
-'''
+## Project Structure
+
+| Path | Description |
+|-----|-------------|
+| `app.py` | FastAPI entry point and main integration logic |
+| `ml/model.py` | ML model loading and fraud prediction |
+| `security/hashing.py` | SHA-256 hashing utilities |
+| `blockchain/web3_client.py` | Web3.py integration and Solidity contract calls |
+| `blockchain/contract_abi.json` | Smart contract ABI exported from Remix |
+| `xgb_fraud_model.pkl` | Trained XGBoost fraud detection model |
+| `.env` | Environment variables (RPC URL, private key, contract address) |
+| `requirements.txt` | Python dependencies |
+
 
 **Dataset link:** https://www.kaggle.com/datasets/chaitya0623/ethereum-transactions-for-fraud-detection?utm_source=chatgpt.com&select=first_order_df.csv
 second_order_df.csv is used.
