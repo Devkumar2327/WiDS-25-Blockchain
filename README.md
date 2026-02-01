@@ -17,6 +17,10 @@ fraud_detection_project/
 ├── .env                       # RPC + private key
 └── requirements.txt
 
+Dataset link: https://www.kaggle.com/datasets/chaitya0623/ethereum-transactions-for-fraud-detection?utm_source=chatgpt.com&select=first_order_df.csv
+second_order_df.csv is used.
+Only files have been uploaded.
+
 Week 1:
 WidsA1: Assignment 1: performed on a house price dataset downloaded from Kaggle.
 I performed data analysis tasks, i.e., data cleaning, handling missing values, detecting outliers, encoding, scaling, and performing PCA with and without scikit-learn.
