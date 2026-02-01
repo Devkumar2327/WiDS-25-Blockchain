@@ -4,18 +4,19 @@ fraud_detection_project/
 ├── app.py                     # FastAPI entry point
 │
 ├── ml/
-│   └── model.py               # ML loading & prediction
+│   └── model.py               # ML model loading & prediction logic
 │
 ├── security/
-│   └── hashing.py             # SHA-256 hashing
+│   └── hashing.py             # SHA-256 hashing utilities
 │
 ├── blockchain/
-│   ├── web3_client.py         # Web3 + Solidity calls
-│   └── contract_abi.json      # ABI from Remix
+│   ├── web3_client.py         # Web3.py integration & Solidity contract calls
+│   └── contract_abi.json      # Smart contract ABI (exported from Remix)
 │
-├── xgb_fraud_model.pkl        # Trained ML model
-├── .env                       # RPC + private key
-└── requirements.txt
+├── xgb_fraud_model.pkl        # Trained XGBoost fraud detection model
+├── .env                       # Environment variables (RPC URL, private key, contract address)
+└── requirements.txt           # Python dependencies
+
 
 **Dataset link:** https://www.kaggle.com/datasets/chaitya0623/ethereum-transactions-for-fraud-detection?utm_source=chatgpt.com&select=first_order_df.csv
 second_order_df.csv is used.
