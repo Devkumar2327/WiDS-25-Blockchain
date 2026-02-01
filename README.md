@@ -1,4 +1,5 @@
 # WiDS-25-Blockchain
+'''
 fraud_detection_project/
 │
 ├── app.py                     # FastAPI entry point
@@ -16,7 +17,7 @@ fraud_detection_project/
 ├── xgb_fraud_model.pkl        # Trained XGBoost fraud detection model
 ├── .env                       # Environment variables (RPC URL, private key, contract address)
 └── requirements.txt           # Python dependencies
-
+'''
 
 **Dataset link:** https://www.kaggle.com/datasets/chaitya0623/ethereum-transactions-for-fraud-detection?utm_source=chatgpt.com&select=first_order_df.csv
 second_order_df.csv is used.
